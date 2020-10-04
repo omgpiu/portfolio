@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.e4e75286.chunk.css",
+    "main.js": "/porfolio/static/js/main.d1cde578.chunk.js",
+    "main.js.map": "/porfolio/static/js/main.d1cde578.chunk.js.map",
+    "runtime-main.js": "/porfolio/static/js/runtime-main.e6904c30.js",
+    "runtime-main.js.map": "/porfolio/static/js/runtime-main.e6904c30.js.map",
+    "static/js/2.60344e1a.chunk.js": "/porfolio/static/js/2.60344e1a.chunk.js",
+    "static/js/2.60344e1a.chunk.js.map": "/porfolio/static/js/2.60344e1a.chunk.js.map",
+    "index.html": "/porfolio/index.html",
+    "precache-manifest.a6750e26de10de9f5cbf8188955c4aac.js": "/porfolio/precache-manifest.a6750e26de10de9f5cbf8188955c4aac.js",
+    "service-worker.js": "/porfolio/service-worker.js",
+    "static/css/main.e4e75286.chunk.css.map": "/porfolio/static/css/main.e4e75286.chunk.css.map",
+    "static/js/2.60344e1a.chunk.js.LICENSE.txt": "/porfolio/static/js/2.60344e1a.chunk.js.LICENSE.txt",
+    "static/media/mini_socialnetwork.jpg": "/porfolio/static/media/mini_socialnetwork.b305ce62.jpg",
+    "static/media/newcounter.png": "/porfolio/static/media/newcounter.c5cc100a.png",
+    "static/media/newtodo.png": "/porfolio/static/media/newtodo.c9dda44c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6904c30.js",
+    "static/js/2.60344e1a.chunk.js",
+    "static/css/main.e4e75286.chunk.css",
+    "static/js/main.d1cde578.chunk.js"
+  ]
+}
