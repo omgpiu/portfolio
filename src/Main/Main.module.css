@@ -1,13 +1,14 @@
 .mainBlock {
-    /*height: 100vh;*/
-    background-color: #fff145;
+    min-height: 100vh;
+    background-color: #232a34;
 
 
 }
 
 .greeting {
     width: 300px;
-    background-color: #a39e9e;
+    color: #fff;
+    /*font-family: 'Quicksand', sans-serif;*/
 
 }
 
@@ -18,3 +19,8 @@
 
 }
 
+.greeting h1 {
+    color: #2ca46d;
+    /*font-family: 'Quicksand', sans-serif;*/
+
+}

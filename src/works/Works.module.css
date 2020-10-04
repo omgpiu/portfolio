@@ -1,7 +1,6 @@
-
 .worksBlock {
-    /*height: 100vh;*/ /*не работает*/
-    background-color: #e556d5;
+
+    background-color: #232a34;
 
 }
 
@@ -16,11 +15,16 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
 .title {
-    background-color: blueviolet;
+    color: #fff;
+}
+@media screen and (max-width:937px){
+    .works{
+        justify-content: center;
+    }
 }

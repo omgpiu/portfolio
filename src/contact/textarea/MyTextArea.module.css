@@ -12,6 +12,9 @@
     resize: none;
     width: 101%;
     margin: 1px;
+    background: #2d343e;
+    border-radius: 10px;
+    height: 60px;
 }
 
 

@@ -1,11 +1,11 @@
 .footerContainer {
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #dc75e5;
+    color: #fff;
     flex-wrap: wrap;
 }
 .footerWrapper{
-    background-color: #40e530 ;
+    background-color:#232a34 ;
 }
 
 .footerBlocks{
@@ -18,7 +18,7 @@
 }
 .footerItem{
     width:200px;
-    background-color: #e5d163;
+    /*background-color: #e5d163;*/
     border: 1px solid black;
     text-align: center;
 }

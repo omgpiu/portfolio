@@ -1,7 +1,10 @@
 .nav {
     display: flex;
-    border: 2px solid black;
+    /*margin: 200px;*/
     width: 400px;
-    justify-content: space-between;
+    justify-content: space-around;
 
+}
+.nav a{
+    color: #fff;
 }

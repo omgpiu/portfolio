@@ -12,6 +12,9 @@
 .myInput input {
     width: 100%;
     margin: 1px;
+    background: #2d343e;
+    border-radius: 10px;
+    height: 30px;
 
 
 }
