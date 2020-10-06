@@ -5,6 +5,8 @@
     justify-content: space-around;
 
 }
-.nav a{
+
+.nav a {
     color: #fff;
+    font-family: 'Quicksand', sans-serif;
 }

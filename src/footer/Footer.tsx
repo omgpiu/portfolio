@@ -13,19 +13,21 @@ const Footer = () => {
             <div className={st.footerBlocks}>
             <div className={st.footerItem}>
                 <h5>Alex</h5>
-                lorem Ipsum donor sit.
+                <span>lorem Ipsum donor sit.</span>
             </div>
             <div className={st.footerItem}>
                 <h5>Phone No.</h5>
-                (+1) 123 456 7890
+                 <span>(+1) 123 456 7890</span>
             </div>
             <div className={st.footerItem}>
                 <h5>Email</h5>
-                info@example.com
+                <span>info@example.com</span>
+
             </div>
             <div className={st.footerItem}>
                 <h5>Address</h5>
-                123 lorem ipsum New York, USA.
+                <span>123 lorem ipsum New York, USA.</span>
+
             </div>
             </div>
 
