@@ -1,24 +1,29 @@
 import React from 'react';
 import st from './Nav.module.css';
 
+export const HOME_PATH = "https://www.google.com/"
+export const ABOUT_PATH = "https://www.google.com/"
+export const SERVICES_PATH = "https://www.google.com/"
+export const WORKS_PATH = "https://www.google.com/"
+export const BLOG_PATH = "https://www.google.com/"
+export const CONTACTS_PATH = "https://www.google.com/"
 
 const Nav = () => {
-    const navArray = ['HOME', 'ABOUT', 'SERVICES', 'WORKS', 'BLOG', 'CONTACT']
+
+    const navArray = [
+        <a href={HOME_PATH}>HOME</a>,
+        <a href={ABOUT_PATH}>ABOUT</a>,
+        <a href={SERVICES_PATH}>SERVICES</a>,
+        <a href={WORKS_PATH}>WORKS</a>,
+        <a href={BLOG_PATH}>BLOG</a>,
+        <a href={CONTACTS_PATH}>CONTACTS</a>]
     return <div>
-        {/*<a href="https://www.google.com/">HOME</a>*/}
-        {/*<a href="https://www.google.com/">ABOUT</a>*/}
-        {/*<a href="https://www.google.com/">SERVICES</a>*/}
-        {/*<a href="https://www.google.com/">WORKS</a>*/}
-        {/*<a href="https://www.google.com/">BLOG</a>*/}
-        {/*<a href="https://www.google.com/">CONTACT</a>*/}
+
         <ul className={st.nav}>
-            {navArray.map(el =>
-                <ol>{el}</ol>)}
+            {navArray.map((el, i) =>
+                <ol key={i}>{el}</ol>)}
         </ul>
-
-
     </div>;
 };
-
 
 export default Nav;
