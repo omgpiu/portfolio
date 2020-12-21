@@ -12,6 +12,7 @@ const Main = () => {
                 <p>187015,Saint-Petersburg, Russia</p>
                 <p>01872 - 12 34 56</p>
                 <p> yourmail@mail.com</p>
+                <p>http://example.net</p>
 
                 <p>Specialized in ReactJS,TypeScript</p>
             </div>
