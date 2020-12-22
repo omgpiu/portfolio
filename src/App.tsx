@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useLayoutEffect, useState} from 'react';
 import './App.module.css';
 import Header from './header/Header';
 import Main from './Main/Main';
@@ -28,24 +28,54 @@ import st from './App.module.css'
 // }
 
 
-
 const App = () => {
-    return (
-        <div className={st.app}>
-            <div className={st.st}>
-                <Header/>
-            </div>
-            <Main/>
-            <About/>
-            <Services/>
+        const [scrolled, setScrolled] = useState(false)
+        const [scrolledLayout, setScrolledLayout] = useState(false)
+        useEffect(() => {
+            console.log(">>>> useEffect");
 
-            <Skills/>
-            <Education/>
-            <Works/>
-            <Contact/>
-            <Footer/>
-        </div>
-    );
-};
+            const handleScroll = (e: any) => {
+                setScrolled(window.scrollY > 0)
+            }
+
+            window.addEventListener("scroll", handleScroll)
+
+            return () => {
+                window.removeEventListener("scroll", handleScroll)
+            }
+        }, [])
+        useLayoutEffect(() => {
+            console.log(">>>> useLayoutEffect");
+
+            const handleScroll = (e: any) => {
+                setScrolledLayout(window.scrollY > 0)
+            }
+
+            window.addEventListener("scroll", handleScroll)
+
+            return () => {
+                window.removeEventListener("scroll", handleScroll)
+            }
+        }, [])
+        return (
+            <div className={st.app}>
+
+                <div
+                    className={`Header ${scrolledLayout ? "Header--scrolledLayout" : ""}`}>
+                    <Header/>
+                </div>
+                <Main/>
+                <About/>
+                <Services/>
+
+                <Skills/>
+                <Education/>
+                <Works/>
+                <Contact/>
+                <Footer/>
+            </div>
+        );
+    }
+;
 
 export default App;
