@@ -1,18 +1,17 @@
 
-
-.skillsBlock {
+.educationItemBlock {
 
     background-color: #232a34;
 
 }
 
-.skillsContainer {
+.educationItemContainer {
     justify-content: flex-start;
     flex-direction: column;
 
 }
 
-.skills {
+.educationItem {
     border: 1px solid;
     width: 100%;
     display: flex;
