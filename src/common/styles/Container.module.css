@@ -8,12 +8,14 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #232a34;
+
 }
 
-.container h1, h2,h3, h4, h5 ,h6   {
+.container h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', sans-serif;
     color: red;
 }
+
 .container p, span {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;

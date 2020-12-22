@@ -5,7 +5,7 @@ import myPhoto from '../common/photo/MyPhoto.png'
 
 const Main = () => {
     return <div className={st.mainBlock}>
-        <div className={styleContainer.container}>
+        <div className={`${styleContainer.container} ${st.pad}`}>
             <div className={st.greeting}>
                 <h1>Hi! I'm Alex.</h1>
                 <p>Creative Designer & Frontend developer</p>
