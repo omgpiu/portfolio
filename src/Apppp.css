@@ -2,15 +2,3 @@
     background: red !important;
 }
 
-.Header--scrolledLayout {
-    background: blue;
-}
-.Header {
-    background: lightgrey;
-    position: sticky;
-    top: 0;
-    height: 75px;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-}

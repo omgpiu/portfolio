@@ -1,4 +1,4 @@
-import React, {useEffect, useLayoutEffect, useState} from 'react';
+import React, {useLayoutEffect, useState} from 'react';
 import './App.module.css';
 import Header from './header/Header';
 import Main from './Main/Main';
@@ -29,21 +29,21 @@ import st from './App.module.css'
 
 
 const App = () => {
-        const [scrolled, setScrolled] = useState(false)
+        // const [scrolled, setScrolled] = useState(false)
         const [scrolledLayout, setScrolledLayout] = useState(false)
-        useEffect(() => {
-            console.log(">>>> useEffect");
-
-            const handleScroll = (e: any) => {
-                setScrolled(window.scrollY > 0)
-            }
-
-            window.addEventListener("scroll", handleScroll)
-
-            return () => {
-                window.removeEventListener("scroll", handleScroll)
-            }
-        }, [])
+        // useEffect(() => {
+        //     console.log(">>>> useEffect");
+        //
+        //     const handleScroll = (e: any) => {
+        //         setScrolled(window.scrollY > 0)
+        //     }
+        //
+        //     window.addEventListener("scroll", handleScroll)
+        //
+        //     return () => {
+        //         window.removeEventListener("scroll", handleScroll)
+        //     }
+        // }, [])
         useLayoutEffect(() => {
             console.log(">>>> useLayoutEffect");
 
@@ -58,14 +58,12 @@ const App = () => {
             }
         }, [])
         return (
-            <div className={st.app}>
+            <>
 
-                <div
-                    className={`Header ${scrolledLayout ? "Header--scrolledLayout" : ""}`}>
-                    <Header/>
-                </div>
+                <div className={`${scrolledLayout ? st.scrolledLayout : ''}`}><Header/></div>
                 <Main/>
                 <About/>
+
                 <Services/>
 
                 <Skills/>
@@ -73,7 +71,7 @@ const App = () => {
                 <Works/>
                 <Contact/>
                 <Footer/>
-            </div>
+            </>
         );
     }
 ;

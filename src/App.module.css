@@ -3,3 +3,16 @@
     width: 100%;
 }
 
+.scrolledLayout {
+    background: blue !important;
+}
+.Header {
+    background: lightgrey;
+    position: sticky;
+    top: 0;
+    height: 75px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

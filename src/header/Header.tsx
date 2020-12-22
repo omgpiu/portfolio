@@ -4,13 +4,12 @@ import Nav from '../nav/Nav';
 
 
 const Header = () => {
-    return <div className={st.st}>
+    return <div className={st.header}>
 
-        <div className={st.header}>
-            <div className={st.item}>ALEX DUBROVSKII</div>
-            <div className={st.item}>
-                <Nav/>
-            </div>
+
+        <div className={st.item}>ALEX DUBROVSKII</div>
+        <div className={st.item}>
+            <Nav/>
         </div>
 
 
