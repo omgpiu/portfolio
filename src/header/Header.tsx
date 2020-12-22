@@ -1,10 +1,24 @@
-import React from 'react';
+import React, {useLayoutEffect, useState} from 'react';
 import st from './Header.module.css'
 import Nav from '../nav/Nav';
 
 
 const Header = () => {
-    return <div className={st.header}>
+    const [scrolledLayout, setScrolledLayout] = useState(false)
+    useLayoutEffect(() => {
+        console.log(">>>> useLayoutEffect");
+
+        const handleScroll = (e: any) => {
+            setScrolledLayout(window.scrollY > 0)
+        }
+
+        window.addEventListener("scroll", handleScroll)
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [])
+    return <>
 
 
         <div className={st.item}>ALEX DUBROVSKII</div>
@@ -13,7 +27,7 @@ const Header = () => {
         </div>
 
 
-    </div>
+    </>
 }
 
 

@@ -60,7 +60,7 @@ const App = () => {
         return (
             <>
 
-                <div className={`${scrolledLayout ? st.scrolledLayout : ''}`}><Header/></div>
+                <div className={`${st.header} ${scrolledLayout ? st.scrolledLayout : ''}`}><Header/></div>
                 <Main/>
                 <About/>
 
