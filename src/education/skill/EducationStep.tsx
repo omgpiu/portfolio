@@ -8,11 +8,9 @@ type PropsType = {
 
 
 const EducationStep = (props: PropsType) => {
-    return <div className={st.mySkill}>
+    return <div className={st.item}>
         <h4>{props.title}</h4>
-        <div className={st.icon}>
-            <img src="https://simpleicon.com/wp-content/uploads/rocket.png" alt="Icon"/>
-        </div>
+
         <div className={st.description}>
             <p>{props.description} </p>
         </div>
