@@ -10,7 +10,7 @@ import CounterApp from './work/workimg/newcounter.png'
 const Works = () => {
     return <div className={st.worksBlock}>
         <div className={`${styleContainer.container} ${st.worksContainer}`}>
-            <h2 className={st.title}>My works</h2>
+            <h2 className={st.title}>Recent works</h2>
             <div className={st.works}>
 
                 <MyWork title={'SocialNetWork'} description={'Lorem ipsum dolor sit amet.'}

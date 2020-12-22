@@ -1,7 +1,7 @@
 
 .educationItemBlock {
 
-    background-color: #232a34;
+    background-color: #292b2c;
 
 }
 
@@ -12,12 +12,12 @@
 }
 
 .educationItem {
-    border: 1px solid;
     width: 100%;
     display: flex;
-    /*flex-direction: row;*/
+    flex-direction: row;
     justify-content: space-around;
-    flex-flow: column wrap;
+
+
 }
 
 /*.title {*/

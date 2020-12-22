@@ -1,16 +1,10 @@
 .item {
-    width: 250px;
+    width: 40%;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-.icon img {
-    width: 40px;
-    height: 40px;
-    background-color: #2ca46d;
-
-
+    background-color: #2d343e;
+    margin: 40px;
 }
