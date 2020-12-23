@@ -1,7 +1,14 @@
 import React from 'react';
 import st from './progressbar.module.css'
 
-const ProgressCircle = () => {
+type PropsType = {
+    title: string
+}
+
+
+const ProgressCircle: React.FC<PropsType> = ({
+                                                 title
+                                             }) => {
     return <div className={st.box}>
         <div className={st.percent}>
             <svg>
@@ -10,7 +17,7 @@ const ProgressCircle = () => {
             </svg>
             <span className={st.number}>87%</span>
         </div>
-        <span className={st.progress}>Progress</span>
+        <span className={st.progress}>{title}</span>
     </div>
 }
 export default ProgressCircle;
