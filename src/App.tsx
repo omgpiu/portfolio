@@ -10,7 +10,6 @@ import About from "./about/About";
 import Services from "./services/Services";
 import Education from "./education/Education";
 import st from './App.module.css'
-import ProgressCircle from "./common/progress/progressbar";
 
 // window.onscroll = function() {
 //     checkMarginToTop();
@@ -34,7 +33,7 @@ const App = () => {
         useLayoutEffect(() => {
             console.log(">>>> useLayoutEffect");
             const handleScroll = (e: any) => {
-                setScrolledLayout(window.scrollY > 0)
+                setScrolledLayout(window.scrollY > 3)
             }
             window.addEventListener("scroll", handleScroll)
             return () => {
@@ -45,7 +44,6 @@ const App = () => {
             <>
 
                 <div className={`${st.header} ${scrolledLayout ? st.scrolledLayout : ''}`}><Header/></div>
-                <ProgressCircle/>
                 <Main/>
                 <About/>
 

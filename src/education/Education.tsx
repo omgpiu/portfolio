@@ -1,7 +1,7 @@
 import React from 'react';
 import st from './Education.module.css';
 import styleContainer from '../common/styles/Container.module.css';
-import EducationStep from './skill/EducationStep';
+import EducationStep from './educationStep/EducationStep';
 
 const Education = () => {
     return <div className={st.educationItemBlock}>

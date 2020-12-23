@@ -7,15 +7,6 @@
 }
 
 .box {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ffffff;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
 }
 
 .box .percent {
@@ -32,8 +23,8 @@
 }
 
 .box .percent svg circle {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     fill: none;
     stroke-width: 10;
     stroke: #000;
