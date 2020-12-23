@@ -4,17 +4,22 @@
 }
 
 .scrolledLayout {
-    background: blue !important;
+    background: #2ca46d !important;
+    transition-duration: 150ms;
+
+
 }
+
 .header {
     height: 80px;
-    background-color: #2ca46d;
-    border: black solid 2px;
+    background-color: #232a34;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     width: 100%;
+    transition-duration: 2s;
+    color: white;
 }

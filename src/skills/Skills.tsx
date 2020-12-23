@@ -9,19 +9,19 @@ const Skills = () => {
             <h2 className={st.title}>My skills</h2>
             <div className={st.skills}>
 
-                <MySkill title={'This my React Skill'} description={'Lorem ipsum dolor sit amet.'}/>
-                <MySkill title={'This my JS Skill'}
+                <MySkill title={'JavaScript'} description={'Lorem ipsum dolor sit amet.'}/>
+                <MySkill title={'CSS'}
                          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus.'}/>
-                <MySkill title={'This my HTML+CSS Skill'}
+                <MySkill title={'React'}
                          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia, voluptates?'}/>
-                <MySkill title={'This my React Skill'} description={'Lorem ipsum dolor sit amet.'}/>
-                <MySkill title={'This my JS Skill'}
+                <MySkill title={'Redux'} description={'Lorem ipsum dolor sit amet.'}/>
+                <MySkill title={'Typescript'}
                          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus.'}/>
-                <MySkill title={'This my HTML+CSS Skill'}
+                <MySkill title={'Redux-toolkit'}
                          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia, voluptates?'}/>
-                <MySkill title={'This my JS Skill'}
+                <MySkill title={'HTML'}
                          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus.'}/>
-                <MySkill title={'This my HTML+CSS Skill'}
+                <MySkill title={'Material UI'}
                          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia, voluptates?'}/>
 
             </div>

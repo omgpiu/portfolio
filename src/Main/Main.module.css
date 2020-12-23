@@ -9,21 +9,18 @@
     width: 300px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .photo {
     width: 400px;
     height: 500px;
-
-
 }
 
 .greeting h1 {
     color: #2ca46d;
     font-family: 'Quicksand', sans-serif;
-
 }
-.pad{
-    padding-top: 100px;
+
+.pad {
+    padding-top: 50px;
 }

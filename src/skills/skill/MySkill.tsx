@@ -3,7 +3,7 @@ import st from './MySkill.module.css';
 
 type PropsType = {
     title: string
-    description: string
+    description?: string
 }
 
 
@@ -13,9 +13,9 @@ const MySkill = (props: PropsType) => {
         <div className={st.icon}>
             <img src="https://simpleicon.com/wp-content/uploads/rocket.png" alt="Icon"/>
         </div>
-        <div className={st.description}>
-            <p>{props.description} </p>
-        </div>
+        {/*<div className={st.description}>*/}
+        {/*    <p>{props.description} </p>*/}
+        {/*</div>*/}
 
 
     </div>;
