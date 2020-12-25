@@ -9,6 +9,7 @@ import Footer from './footer/Footer';
 import About from "./about/About";
 import Education from "./education/Education";
 import st from './App.module.css'
+import Services from "./services/Services";
 
 
 const App = () => {
@@ -30,7 +31,7 @@ const App = () => {
                 <Main/>
                 <About/>
 
-                {/*<Services/>*/}
+                <Services/>
 
                 <Skills/>
                 <Education/>
