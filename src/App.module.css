@@ -5,12 +5,11 @@
 
 .scrolledLayout {
     background: #2ca46d !important;
-    transition-duration: 150ms;
-
-
+    transition-duration: 100ms;
 }
 
 .header {
+    z-index: 999;
     height: 80px;
     background-color: #232a34;
     display: flex;
@@ -18,7 +17,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    /*padding: 0 20px;*/
+    padding: 0 20px;
     width: 100%;
     transition-duration: 2s;
     color: white;

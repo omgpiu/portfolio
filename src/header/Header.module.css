@@ -1,4 +1,5 @@
 .header {
+    z-index: 999;
     height: 80px;
     background-color: #2ca46d;
     border: black solid 2px;
@@ -7,10 +8,11 @@
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     width: 100%;
 }
 
 .scrolledLayout {
     background: blue !important;
+    z-index: 999;
 }
