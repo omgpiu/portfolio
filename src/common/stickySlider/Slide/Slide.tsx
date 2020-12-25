@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
-import css from './Slide.module.scss';
-import 'swiper/swiper.scss'
+import css from './Slide.module.css';
+import 'swiper/swiper-bundle.css';
 
 const Slide: React.FC<any> = ({children, translate, transition, color}) => {
     const container = useRef(null as any);

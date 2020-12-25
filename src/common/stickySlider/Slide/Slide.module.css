@@ -1,10 +1,10 @@
 .container {
+  transform-origin: 0 50%;
   margin: 0 1em;
   border-radius: 4px;
   overflow: hidden;
   background-color: #fff;
-  transform-origin: 0 50%; // для трансформации относительно левого края
-  transition-property: opacity, transform; // свойства, которые анимируются
+  transition-property: opacity, transform;
 }
 
 .content {

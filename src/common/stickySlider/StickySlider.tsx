@@ -4,7 +4,7 @@ import Swiper from 'react-id-swiper';
 // import 'swiper/css/swiper.css' from 'Swiper'
 import data from '../data/data.json'
 import Slide from './Slide'
-import 'swiper/swiper.scss'
+import 'swiper/swiper-bundle.css';
 
 const StickySlider = () => {
     const [swiper, updateSwiper] = useState(null as any);

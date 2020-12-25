@@ -1,11 +1,11 @@
 import React from 'react';
 import StickySlider from '../common/stickySlider'
-import css from './Services.module.scss'
+import css from './Services.module.css'
 
 const Services = () => {
     return (
         <div className={css.container}>
-            <h1 className={css.title}>Sticky slider</h1>
+            <span className={css.title}>Sticky slider</span>
             <div className={css.slider}>
                 <StickySlider/>
             </div>
