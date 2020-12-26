@@ -8,10 +8,10 @@ const Skills = () => {
         <div className={`${styleContainer.container} ${st.skillsContainer}`}>
             <h2 className={st.title}>My skills</h2>
             <div className={st.skills}>
-                <ProgressCircle title={'JavaScript'}/>
-                <ProgressCircle title={'React'}/>
-                <ProgressCircle title={'Typescript'}/>
-                <ProgressCircle title={'Redux'}/>
+                <ProgressCircle title={'JavaScript'} style={{strokeDashoffset: '200'}}/>
+                <ProgressCircle title={'React'} style={{strokeDashoffset: '155'}}/>
+                <ProgressCircle title={'Typescript'} style={{strokeDashoffset: '250'}}/>
+                <ProgressCircle title={'Redux'} style={{strokeDashoffset: '400'}}/>
             </div>
         </div>
 
