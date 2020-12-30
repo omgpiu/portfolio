@@ -2,9 +2,9 @@ import React from 'react';
 import st from './Works.module.css';
 import styleContainer from '../common/styles/Container.module.css';
 import MyWork from './work/MyWork';
-import socialNetworkPhoto from './work/workimg/mini_socialnetwork.jpg';
-import ToDoAppPhoto from './work/workimg/newtodo.png';
-import CounterApp from './work/workimg/newcounter.png'
+import socialNetworkPhoto from '../common/photo/forWorks/mini_socialnetwork.jpg';
+import ToDoAppPhoto from '../common/photo/forWorks/newtodo.png';
+import CounterApp from '../common/photo/forWorks/newcounter.png'
 
 
 const Works = () => {

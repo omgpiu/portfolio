@@ -1,7 +1,7 @@
 import React from 'react';
 import st from './About.module.css';
 import styleContainer from '../common/styles/Container.module.css';
-import myPhoto from '../common/photo/about.png'
+import myPhoto from '../common/photo/about/about.png'
 
 const About = () => {
     return <div className={st.mainBlock}>

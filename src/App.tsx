@@ -10,6 +10,7 @@ import About from "./about/About";
 import Education from "./education/Education";
 import st from './App.module.css'
 import Services from "./services/Services";
+import Payment from "./price/Payment";
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
                 <Skills/>
                 <Education/>
                 <Works/>
+                <Payment/>
                 <Contact/>
                 <Footer/>
 
