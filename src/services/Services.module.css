@@ -1,15 +1,19 @@
 .container {
-  padding: 0 15px;
-  background-color: #2d343e;
+    padding: 0 15px;
+    background-color: #2d343e;
 }
 
 .title {
-  font-weight: 700;
-  font-size: 2.5em;
-  text-align: center;
-  margin: 1em 0;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1em 0;
 }
 
 .slider {
-  margin: 0 -15px;
+    margin: 0 -15px;
+}
+
+.con {
+    margin: 0
 }
