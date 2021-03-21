@@ -1,34 +1,27 @@
-.mainBlock {
-    /*min-height: 100vh;*/
+.section__about {
     background-color: #232a34;
-
-
 }
 
-.greeting {
+.about__wrap {
     width: 500px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-
 }
 
-.photo {
+.about__img {
     width: 400px;
     height: 500px;
-
-
 }
 
-.greeting h1 {
+.about__wrap h1 {
     color: #2ca46d;
     font-family: 'Quicksand', sans-serif;
-
 }
 
-.btn {
+.about__btn {
     background-color: #2ca46d;
     color: white;
     border-radius: 30px;
-    height:50px;
-    width:150px;
+    height: 50px;
+    width: 150px;
 }
